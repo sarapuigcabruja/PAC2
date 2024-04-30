@@ -1,0 +1,140 @@
+{
+  "@context" : {
+    "Verified" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Verified"
+    },
+    "PassengerInformation" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/PassengerInformation"
+    },
+    "airlineName" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/airlineName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/hasRating",
+      "@type" : "@id"
+    },
+    "Comment" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Comment"
+    },
+    "Type" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Type"
+    },
+    "PassengerCountry" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/PassengerCountry"
+    },
+    "Title" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Title"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Destination"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Origin"
+    },
+    "countryName" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/countryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isDidBy" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/isDidBy",
+      "@type" : "@id"
+    },
+    "GoodRated" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/GoodRated"
+    },
+    "conclusion" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/conclusion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isRatedAs" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/isRatedAs",
+      "@type" : "@id"
+    },
+    "hasDid" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/hasDid",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Passenger" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Passenger"
+    },
+    "Recomended" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Recomended"
+    },
+    "FlightRated" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/FlightRated"
+    },
+    "Survey" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Survey"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Rating"
+    },
+    "isAnsweredBy" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/isAnsweredBy",
+      "@type" : "@id"
+    },
+    "PublicationDate" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/PublicationDate"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Aircraft"
+    },
+    "hasToke" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/hasToke",
+      "@type" : "@id"
+    },
+    "hasAnswered" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/hasAnswered",
+      "@type" : "@id"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Airline"
+    },
+    "BadRated" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/BadRated"
+    },
+    "FlownDate" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/FlownDate"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Flight"
+    },
+    "date" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "Trip" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/Trip"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "ratingOutOfTen" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/ratingOutOfTen"
+    },
+    "FlightInformation" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/FlightInformation"
+    },
+    "isTokeBy" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/isTokeBy",
+      "@type" : "@id"
+    },
+    "SurveyInformation" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/SurveyInformation"
+    },
+    "MediumRated" : {
+      "@id" : "http://www.semanticweb.org/puxi_/ontologies/2024/3/flight_satisfaction_surveys/MediumRated"
+    }
+  }
+}

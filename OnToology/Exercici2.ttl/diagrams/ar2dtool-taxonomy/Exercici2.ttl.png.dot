@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:BadRated" "base:Verified" "base:Survey" "base:FlownDate" "base:SurveyInformation" "base:Rating" "base:FlightRated" "base:Comment" "base:Type" "base:Trip" "base:PublicationDate" "base:Destination" "base:Title" "base:Airline" "base:PassengerInformation" "base:PassengerCountry" "base:Recomended" "base:FlightInformation" "base:Flight" "base:Passenger" "base:MediumRated" "base:Aircraft" "base:GoodRated" "base:Origin" ; /*classes style*/
+	"base:Recomended" -> "base:SurveyInformation" [ label = "rdfs:subClassOf" ];
+	"base:Verified" -> "base:Trip" [ label = "rdfs:subClassOf" ];
+	"base:PassengerCountry" -> "base:PassengerInformation" [ label = "rdfs:subClassOf" ];
+	"base:PassengerInformation" -> "base:Passenger" [ label = "rdfs:subClassOf" ];
+	"base:Rating" -> "base:SurveyInformation" [ label = "rdfs:subClassOf" ];
+	"base:BadRated" -> "base:FlightRated" [ label = "rdfs:subClassOf" ];
+	"base:Aircraft" -> "base:FlightInformation" [ label = "rdfs:subClassOf" ];
+	"base:MediumRated" -> "base:FlightRated" [ label = "rdfs:subClassOf" ];
+	"base:Title" -> "base:SurveyInformation" [ label = "rdfs:subClassOf" ];
+	"base:Type" -> "base:Trip" [ label = "rdfs:subClassOf" ];
+	"base:FlownDate" -> "base:FlightInformation" [ label = "rdfs:subClassOf" ];
+	"base:PublicationDate" -> "base:SurveyInformation" [ label = "rdfs:subClassOf" ];
+	"base:GoodRated" -> "base:FlightRated" [ label = "rdfs:subClassOf" ];
+	"base:Airline" -> "base:FlightInformation" [ label = "rdfs:subClassOf" ];
+	"base:Origin" -> "base:FlightInformation" [ label = "rdfs:subClassOf" ];
+	"base:FlightRated" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Destination" -> "base:FlightInformation" [ label = "rdfs:subClassOf" ];
+	"base:SurveyInformation" -> "base:Survey" [ label = "rdfs:subClassOf" ];
+	"base:Comment" -> "base:SurveyInformation" [ label = "rdfs:subClassOf" ];
+	"base:FlightInformation" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+
+}
